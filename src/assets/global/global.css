@@ -1,0 +1,78 @@
+.header_hero {
+    background-image: url('../images/bg-pattern-intro.svg') !important;
+    background-repeat: no-repeat;
+    /*background-size: 50em;*/
+    /*background-position: top left;*/
+    background-size: 199em;
+    background-position: center;
+    background-position-x: -50rem;
+    background-position-y: -86rem;
+}
+
+.infastructure {
+    background-image: url('../images/bg-pattern-circles.svg');
+    background-position-y: -132px;
+    background-repeat: no-repeat;
+    background-size: 122%;
+    background-origin: border-box;
+}
+
+.extensible-editor {
+    height: 37.5rem;
+}
+
+@media (min-width:557px) {
+    .infasPhone {
+        width: 25.9em !important;
+        height: 26.9em !important;
+    }
+    .statistics {
+        width: 30em !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigations {
+        display: block !important
+    }
+    .testo {
+        background-image: url(../images/illustration-editor-desktop.svg);
+        background-repeat: no-repeat;
+        background-position-x: 236%;
+        background-size: 76.7%;
+        /* height: 59.4vw; */
+        background-position-y: 91%;
+    }
+    .extensible-editor {
+        height: 305.8px;
+    }
+    .bg-for-lastsection {
+        background-image: url(../images/illustration-laptop-desktop.svg);
+        background-repeat: no-repeat;
+        background-position-x: -45.8%;
+        background-size: 60.7%;
+        height: 59.4vw;
+    }
+}
+
+@media (min-width: 881px) {
+    .testo {
+        background-position-x: 226%;
+        background-size: 73.7%;
+        height: 73.4vw;
+        background-position-y: 92%;
+    }
+    .bg-for-lastsection {
+        background-image: url(../images/illustration-laptop-desktop.svg);
+        background-size: 73.7%;
+        background-position-x: -92.8%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .testo {
+        background-position-x: 160%;
+        background-size: 60.6%;
+        background-position-y: 0%;
+    }
+}
